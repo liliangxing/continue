@@ -20,7 +20,13 @@
     "targets": [
       "node18-linux-x64"
     ],
-    "outputPath": "bin"
+    "outputPath": "bin",
+    "externals": [
+      "node:sqlite",
+      "node:crypto",
+      "node:worker_threads",
+      "node:zlib"
+    ]
   },
   "author": "",
   "license": "Apache-2.0"
